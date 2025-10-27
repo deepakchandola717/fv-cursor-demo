@@ -1,0 +1,266 @@
+/* Essential Ant Design Customizations */
+
+/* Layout */
+.ant-layout {
+  min-height: 100vh;
+}
+
+.ant-layout-sider {
+  box-shadow: 2px 0 8px rgba(0, 0, 0, 0.03) !important;
+  z-index: 1000 !important;
+}
+
+.ant-layout-header {
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.04) !important;
+  z-index: 999 !important;
+}
+
+/* Menu Customization */
+.ant-menu-item {
+  border-radius: 6px !important;
+  margin: 4px 12px !important;
+  height: 40px !important;
+  line-height: 40px !important;
+  padding: 0 16px !important;
+  transition: all 0.2s ease !important;
+  overflow: hidden !important;
+  text-overflow: ellipsis !important;
+  white-space: nowrap !important;
+}
+
+.ant-menu-item:hover:not(.ant-menu-item-selected) {
+  background-color: #f3f4f6 !important;
+  color: #0A3746 !important;
+}
+
+.ant-menu-item:hover:not(.ant-menu-item-selected) .anticon,
+.ant-menu-item:hover:not(.ant-menu-item-selected) svg {
+  color: #0A3746 !important;
+}
+
+.ant-menu-item-selected {
+  background-color: #0A3746 !important;
+  color: white !important;
+}
+
+.ant-menu-item-selected .anticon,
+.ant-menu-item-selected svg {
+  color: white !important;
+}
+
+.ant-menu-light {
+  overflow-x: hidden !important;
+}
+
+/* Cards */
+.ant-card {
+  border-radius: 12px !important;
+  border: none !important;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08) !important;
+  transition: all 0.2s ease !important;
+}
+
+.ant-card-head {
+  border-bottom: 1px solid #e5e7eb !important;
+  padding: 16px 24px !important;
+}
+
+.ant-card-head-title {
+  font-weight: 600 !important;
+  font-size: 16px !important;
+  color: #0A3746 !important;
+}
+
+.ant-card-body {
+  padding: 24px !important;
+}
+
+/* Buttons */
+.ant-btn-primary {
+  background: #0A3746 !important;
+  border-color: #0A3746 !important;
+  box-shadow: 0 2px 0 rgba(10, 55, 70, 0.045) !important;
+}
+
+.ant-btn-primary:hover {
+  background: #082d3a !important;
+  border-color: #082d3a !important;
+}
+
+.ant-btn {
+  border-radius: 6px !important;
+  font-weight: 500 !important;
+  transition: all 0.2s ease !important;
+}
+
+/* Input & TextArea */
+.ant-input,
+.ant-input-affix-wrapper,
+.ant-input-textarea-show-count::after {
+  border-radius: 6px !important;
+  transition: all 0.2s ease !important;
+}
+
+.ant-input-affix-wrapper {
+  border: 1px solid #e5e7eb !important;
+  padding: 8px 12px !important;
+}
+
+.ant-input-affix-wrapper > input.ant-input {
+  border: none !important;
+  box-shadow: none !important;
+  padding: 0 !important;
+}
+
+.ant-input {
+  border: 1px solid #e5e7eb !important;
+}
+
+.ant-input:hover,
+.ant-input-affix-wrapper:hover {
+  border-color: #0A3746 !important;
+}
+
+.ant-input:focus,
+.ant-input-affix-wrapper:focus,
+.ant-input-affix-wrapper-focused {
+  border-color: #0A3746 !important;
+  box-shadow: 0 0 0 2px rgba(10, 55, 70, 0.1) !important;
+}
+
+.ant-input-prefix {
+  margin-right: 8px !important;
+  color: #9ca3af !important;
+}
+
+/* Select */
+.ant-select-selector {
+  border-radius: 6px !important;
+  border: 1px solid #e5e7eb !important;
+}
+
+.ant-select-focused .ant-select-selector {
+  border-color: #0A3746 !important;
+  box-shadow: 0 0 0 2px rgba(10, 55, 70, 0.1) !important;
+}
+
+/* Table */
+.ant-table {
+  border-radius: 12px !important;
+}
+
+.ant-table-thead > tr > th {
+  background: #f9fafb !important;
+  color: #374151 !important;
+  font-weight: 600 !important;
+  border-bottom: 1px solid #e5e7eb !important;
+}
+
+.ant-table-tbody > tr:hover > td {
+  background: #f9fafb !important;
+}
+
+/* Tabs */
+.ant-tabs-tab {
+  padding: 10px 16px !important;
+  margin: 0 4px !important;
+  font-weight: 500 !important;
+  color: #6b7280 !important;
+}
+
+.ant-tabs-tab:hover {
+  color: #0A3746 !important;
+}
+
+.ant-tabs-tab-active .ant-tabs-tab-btn {
+  color: #0A3746 !important;
+  font-weight: 600 !important;
+}
+
+.ant-tabs-ink-bar {
+  background: #0A3746 !important;
+}
+
+.ant-tabs-left > .ant-tabs-nav .ant-tabs-tab {
+  padding: 12px 20px !important;
+  margin: 4px 0 !important;
+  border-radius: 6px !important;
+}
+
+.ant-tabs-left > .ant-tabs-nav .ant-tabs-tab-active {
+  background: #f3f4f6 !important;
+}
+
+/* Left Tabs - Fixed Navigation for Settings */
+.ant-tabs-left {
+  height: 100% !important;
+  display: flex !important;
+}
+
+.ant-tabs-left > .ant-tabs-nav {
+  height: 100% !important;
+  overflow-y: auto !important;
+  overflow-x: hidden !important;
+  flex-shrink: 0 !important;
+}
+
+.ant-tabs-left > .ant-tabs-content-holder {
+  flex: 1 !important;
+  overflow-y: auto !important;
+  overflow-x: hidden !important;
+  height: 100% !important;
+}
+
+.ant-tabs-left > .ant-tabs-content {
+  height: 100% !important;
+}
+
+.ant-tabs-left > .ant-tabs-content > .ant-tabs-tabpane {
+  height: 100% !important;
+  overflow-y: auto !important;
+  padding-right: 8px !important;
+}
+
+/* Modal */
+.ant-modal-content {
+  border-radius: 12px !important;
+}
+
+.ant-modal-header {
+  border-radius: 12px 12px 0 0 !important;
+  border-bottom: 1px solid #e5e7eb !important;
+}
+
+.ant-modal-title {
+  font-weight: 600 !important;
+  color: #0A3746 !important;
+}
+
+/* AI Chat Button Animation */
+.ai-chat-button {
+  position: relative;
+  overflow: visible !important;
+}
+
+.ai-chat-button:hover {
+  background: linear-gradient(135deg, #0A3746 0%, #10B981 100%) !important;
+  color: white !important;
+  transform: scale(1.1);
+}
+
+.ai-chat-button:hover svg {
+  color: white !important;
+  animation: sparkle 0.6s ease-in-out;
+}
+
+@keyframes sparkle {
+  0%, 100% { 
+    transform: scale(1) rotate(0deg); 
+  }
+  25% { 
+    transform: scale(1.1) rotate(-5deg); 
+  }
+  75% { 
+    transform: scale(1.1) rotate(5deg); 
+  }
+}
