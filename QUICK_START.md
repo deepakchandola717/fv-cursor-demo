@@ -6,7 +6,7 @@
 
 ```bash
 # Navigate to project directory
-cd /Users/deepakchandola/deepSea/projects_dc/labs-deeref/flowverify/app/mockups/fv-cursor-21oct2025
+cd /Users/deepakchandola/deepSea/projects_dc/labs-deeref/flowverify/app/mockups/fv-cursor-demo
 
 # Install dependencies (if not already done)
 npm install
